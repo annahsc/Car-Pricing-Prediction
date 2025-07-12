@@ -1,4 +1,4 @@
-##  Car Price Prediction Using Machine Learning
+##  Car Price Prediction
 
 This project predicts the sale prices of second-hand vehicles using regression-based machine learning models. The dataset includes 10,000 car listings and features over 35 variables, including numeric features like mileage, engine size, and horsepower, as well as categorical features such as body type, transmission, and fuel type.
 
