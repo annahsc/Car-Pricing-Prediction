@@ -1,4 +1,4 @@
-## 🛒 Customer Segmentation Analysis
+##  Customer Segmentation Analysis
 
 This project focuses on segmenting supermarket customers using clustering techniques to support targeted marketing strategies. The dataset consists of 4,000 customer records collected via loyalty cards and includes features such as age, gender, and annual income.
 
@@ -8,4 +8,4 @@ To determine the optimal number of clusters, both the **Elbow Method** and **Sil
 
 The final section interprets each customer group and offers **marketing recommendations** tailored to their characteristics. This analysis supports data-driven decisions for improving customer engagement, product targeting, and personalized promotions.
 
-📁 Tools: Python, Pandas, Matplotlib, Seaborn, Scikit-learn
+Tools: Python, Pandas, Matplotlib, Seaborn, Scikit-learn
