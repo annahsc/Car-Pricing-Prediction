@@ -1,11 +1,12 @@
-##  Customer Segmentation Analysis
+##  Car Price Prediction Using Machine Learning
 
-This project focuses on segmenting supermarket customers using clustering techniques to support targeted marketing strategies. The dataset consists of 4,000 customer records collected via loyalty cards and includes features such as age, gender, and annual income.
+This project predicts the sale prices of second-hand vehicles using regression-based machine learning models. The dataset includes 10,000 car listings and features over 35 variables, including numeric features like mileage, engine size, and horsepower, as well as categorical features such as body type, transmission, and fuel type.
 
-The notebook begins with exploratory data analysis (EDA) to understand customer distribution and highlight key trends using visual tools like histograms and pie charts. It then applies **K-Means++** and **Agglomerative Clustering** to group customers into distinct segments.
+The project begins with exploratory data analysis and visualization to understand pricing trends and identify key variables. Missing values—found in both numerical and categorical fields—are handled thoughtfully to avoid data leakage and improve model performance. Feature categorization and encoding are performed, followed by correlation analysis and variable selection.
 
-To determine the optimal number of clusters, both the **Elbow Method** and **Silhouette Analysis** are used. Clusters are profiled based on demographic and financial attributes, with comparisons drawn between the two clustering approaches.
+Multiple regression models are tested, with performance evaluated using Mean Absolute Percentage Error (MAPE). Insights are drawn for different stakeholders: buyers can better evaluate value, sellers can set competitive prices, and dealers and insurers can use pricing forecasts to inform business strategies.
 
-The final section interprets each customer group and offers **marketing recommendations** tailored to their characteristics. This analysis supports data-driven decisions for improving customer engagement, product targeting, and personalized promotions.
+Notably, we discovered that many vehicles had zero mileage, suggesting a high volume of demo or display cars being sold. The market also shows fast turnover, with a median of just 36 days on market.
 
-Tools: Python, Pandas, Matplotlib, Seaborn, Scikit-learn
+Tools used: Python, Pandas, Scikit-learn, Seaborn, Matplotlib  
+Techniques: Regression, Feature Engineering, EDA, Data Cleaning
